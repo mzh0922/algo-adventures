@@ -71,7 +71,6 @@ function twoSum2(nums, target) {
   const map = new Map() // create a hash map
   for(let i=0,len=nums.length;i<len;i++){
     const complement = target - nums[i] // Calculate the complement 
-    // console.error(complement)
     if(map.has(complement)){ // check if the complement exists in the map
       return [map.get(complement),i] // return the result
     }
@@ -79,11 +78,6 @@ function twoSum2(nums, target) {
   }
   return [] // return an empty array if no solution is found
 }
-
-// console.log(twoSum2([2,7,11,15],9))
-// console.log(twoSum([3,2,4],6))
-// console.log(twoSum([3,3],6))
-// console.log(twoSum2([3,2,3],6))
 </script>
 </body>
 </html>
