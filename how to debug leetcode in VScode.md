@@ -15,3 +15,5 @@ open the LeetCode in vscode sidebar
 debug the code when you click "code run"
 ![alt text](./image/codeNow.png)
 ![alt text](./image/debug.png)
+
+Have a enjoyment!
